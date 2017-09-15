@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_marginTop="100px"
+        android:background="#cccccc"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/no_angle_move" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/direction" />
+
+        <Spinner
+            android:id="@+id/sv_hand_no_angle_action"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:entries="@array/hand_action"
+            android:gravity="center"></Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/part" />
+
+        <Spinner
+            android:id="@+id/sv_hand_no_angle_part"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:entries="@array/hand_part"
+            android:gravity="center"></Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/speed" />
+
+        <EditText
+            android:id="@+id/et_hand_no_angle_speed"
+            android:layout_width="250px"
+            android:layout_height="match_parent"
+            android:hint="@string/hand_speed_range"
+            android:inputType="number"
+            android:textColorHint="#BBBBBB" />
+
+        <TextView
+            android:id="@+id/tv_hand_no_angle_start"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:text="@string/start_move" />
+        <TextView
+            android:id="@+id/tv_hand_no_angle_end"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:text="@string/end_move" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_marginTop="100px"
+        android:background="#cccccc"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/relative_angle_move" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/direction" />
+
+        <Spinner
+            android:id="@+id/sv_hand_relative_action"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:entries="@array/hand_relative_action"
+            android:gravity="center"></Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/part" />
+
+        <Spinner
+            android:id="@+id/sv_hand_relative_part"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:entries="@array/hand_part"
+            android:gravity="center"></Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/speed" />
+
+        <EditText
+            android:id="@+id/et_hand_relative_speed"
+            android:layout_width="250px"
+            android:layout_height="match_parent"
+            android:hint="@string/hand_speed_range"
+            android:inputType="number"
+            android:textColorHint="#BBBBBB" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/angle" />
+
+        <EditText
+            android:id="@+id/et_hand_relative_angle"
+            android:layout_width="250px"
+            android:layout_height="match_parent"
+            android:hint="@string/hand_angle_range"
+            android:inputType="number"
+            android:textColorHint="#BBBBBB" />
+
+        <TextView
+            android:id="@+id/tv_hand_relative_start"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:text="@string/start_move" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_marginTop="100px"
+        android:background="#cccccc"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/absolute_angle_move" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/part" />
+
+        <Spinner
+            android:id="@+id/sv_hand_absolute_part"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:entries="@array/hand_part"
+            android:gravity="center"></Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/speed" />
+
+        <EditText
+            android:id="@+id/et_hand_absolute_speed"
+            android:layout_width="250px"
+            android:layout_height="match_parent"
+            android:hint="@string/hand_speed_range"
+            android:inputType="number"
+            android:textColorHint="#BBBBBB" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/angle" />
+
+        <EditText
+            android:id="@+id/et_hand_absolute_angle"
+            android:layout_width="250px"
+            android:layout_height="match_parent"
+            android:hint="@string/hand_angle_range"
+            android:inputType="number"
+            android:textColorHint="#BBBBBB" />
+
+        <TextView
+            android:id="@+id/tv_hand_absolute_start"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:text="@string/start_move" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_marginTop="100px"
+        android:background="#cccccc"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/relative_move" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/direction" />
+
+        <Spinner
+            android:id="@+id/sv_head_relative_action"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:entries="@array/relative_action"
+            android:gravity="center"></Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/angle" />
+
+        <EditText
+            android:id="@+id/et_head_relative_angle"
+            android:layout_width="150px"
+            android:layout_height="match_parent"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/tv_head_relative_start"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:text="@string/start_move" />
+
+        <TextView
+            android:id="@+id/tv_head_relative_end"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:text="@string/end_move" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_marginTop="50px"
+        android:background="#cccccc"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/absolute_move" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/direction" />
+
+        <Spinner
+            android:id="@+id/sv_head_absolute_action"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:entries="@array/absolute_action"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/angle" />
+
+        <EditText
+            android:id="@+id/et_head_absolute_angle"
+            android:layout_width="150px"
+            android:layout_height="match_parent"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/tv_head_absolute_start"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:text="@string/start_move" />
+
+        <TextView
+            android:id="@+id/tv_head_horizontal_lock"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:text="@string/head_lock_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_marginTop="50px"
+        android:background="#cccccc"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/relative_angle_lock" />
+
+
+        <Spinner
+            android:id="@+id/sv_relative_lock_action"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:entries="@array/absolute_lock_action"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/horizontal_direction" />
+
+        <Spinner
+            android:id="@+id/sv_relative_horizontal_direction"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:entries="@array/relative_horizontal"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/horizontal_angle" />
+
+        <EditText
+            android:id="@+id/et_head_horizontal_angle"
+            android:layout_width="150px"
+            android:layout_height="match_parent"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/vertical_direction" />
+
+        <Spinner
+            android:id="@+id/sv_relative_vertical_direction"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:entries="@array/relative_vertical"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/vertical_angle" />
+
+        <EditText
+            android:id="@+id/et_head_vertical_angle"
+            android:layout_width="150px"
+            android:layout_height="match_parent"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/tv_head_relative_lock_start"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:text="@string/start_move" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_marginTop="50px"
+        android:background="#cccccc"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/absolute_angle_lock" />
+
+
+        <Spinner
+            android:id="@+id/sv_absolute_lock_action"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:entries="@array/absolute_lock_action"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/horizontal_angle" />
+
+        <EditText
+            android:id="@+id/et_head_absolute_horizontal_angle"
+            android:layout_width="150px"
+            android:layout_height="match_parent"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/vertical_angle" />
+
+        <EditText
+            android:id="@+id/et_head_absolute_vertical_angle"
+            android:layout_width="150px"
+            android:layout_height="match_parent"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/tv_head_absolute_lock_start"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:text="@string/start_move" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/rg_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        android:orientation="horizontal"
+        android:paddingLeft="40px"
+        android:paddingRight="40px">
+
+        <RadioButton
+            android:id="@+id/rb_one"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10px"
+            android:text="@string/one" />
+
+        <RadioButton
+            android:id="@+id/rb_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10px"
+            android:text="@string/two" />
+
+        <RadioButton
+            android:id="@+id/rb_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10px"
+            android:text="@string/three" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_open_white_light"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:padding="20px"
+            android:text="@string/open_white_light" />
+
+        <TextView
+            android:id="@+id/tv_close_white_light"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:padding="20px"
+            android:text="@string/close_white_light" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="#cccccc"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/part" />
+
+        <Spinner
+            android:id="@+id/sv_led_part"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:entries="@array/led_part"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/mode" />
+
+        <Spinner
+            android:id="@+id/sv_led_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:entries="@array/led_mode"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/duration" />
+
+        <EditText
+            android:id="@+id/et_led_duration"
+            android:layout_width="250px"
+            android:layout_height="match_parent"
+            android:hint="@string/led_duration_range"
+            android:inputType="number"
+            android:textColorHint="#BBBBBB" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/random_count" />
+
+        <EditText
+            android:id="@+id/et_led_random"
+            android:layout_width="250px"
+            android:layout_height="match_parent"
+            android:hint="@string/led_random_range"
+            android:inputType="number"
+            android:textColorHint="#BBBBBB" />
+
+        <TextView
+            android:id="@+id/tv_open_led_light"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:text="@string/open_led_light" />
+
+        <TextView
+            android:layout_marginLeft="40px"
+            android:id="@+id/tv_close_led_light"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:text="@string/close_led_light" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_open_black_filter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:padding="20px"
+            android:text="@string/open_black_line_filter" />
+
+        <TextView
+            android:id="@+id/tv_close_black_filter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:padding="20px"
+            android:text="@string/close_black_line_filter" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_marginTop="50px"
+        android:background="#cccccc"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/touch_sensor" />
+
+        <TextView
+            android:id="@+id/tv_touch_sensor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="40px"
+            android:paddingRight="40px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_marginTop="50px"
+        android:background="#cccccc"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/voice_locate_angle" />
+
+        <TextView
+            android:id="@+id/tv_voice_locate_angle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="40px"
+            android:paddingRight="40px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_marginTop="50px"
+        android:background="#cccccc"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/pir_sensor" />
+
+        <TextView
+            android:id="@+id/tv_pir_sensor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="40px"
+            android:paddingRight="40px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_marginTop="50px"
+        android:background="#cccccc"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_ri_sensor"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#aaaaaa"
+            android:gravity="center_vertical"
+            android:padding="20px"
+            android:text="@string/ri_sensor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/gyroscope" />
+
+        <TextView
+            android:id="@+id/tv_gyroscope_result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="40px"
+            android:paddingRight="40px" />
+
+    </LinearLayout>
+
+</LinearLayout>

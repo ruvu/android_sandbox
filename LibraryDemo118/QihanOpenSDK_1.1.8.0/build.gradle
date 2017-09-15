@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('QihanOpenSDK_1.1.8.0.aar'))

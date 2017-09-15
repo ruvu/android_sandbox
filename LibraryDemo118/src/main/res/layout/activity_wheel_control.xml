@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_marginTop="100px"
+        android:background="#cccccc"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/no_angle_move" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/direction" />
+
+        <Spinner
+            android:id="@+id/sv_wheel_no_angle_action"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:entries="@array/wheel_no_angle_action"
+            android:gravity="center"></Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/speed" />
+
+        <EditText
+            android:id="@+id/et_wheel_no_angle_speed"
+            android:layout_width="250px"
+            android:layout_height="match_parent"
+            android:hint="@string/wheel_speed_range"
+            android:inputType="number"
+            android:textColorHint="#BBBBBB" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/duration" />
+
+        <EditText
+            android:id="@+id/et_wheel_no_angle_duration"
+            android:layout_width="250px"
+            android:layout_height="match_parent"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/tv_wheel_no_angle_start"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:text="@string/start_move" />
+
+        <TextView
+            android:id="@+id/tv_wheel_no_angle_end_turn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:text="@string/stop_turn" />
+
+        <TextView
+            android:id="@+id/tv_wheel_no_angle_end_run"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:text="@string/stop_run" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_marginTop="100px"
+        android:background="#cccccc"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/relative_angle_move" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/direction" />
+
+        <Spinner
+            android:id="@+id/sv_wheel_relative_action"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:entries="@array/wheel_relative_action"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/speed" />
+
+        <EditText
+            android:id="@+id/et_wheel_relative_speed"
+            android:layout_width="250px"
+            android:layout_height="match_parent"
+            android:hint="@string/wheel_speed_range"
+            android:inputType="number"
+            android:textColorHint="#BBBBBB" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/angle" />
+
+        <EditText
+            android:id="@+id/et_wheel_relative_angle"
+            android:layout_width="250px"
+            android:layout_height="match_parent"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/tv_wheel_relative_start"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:text="@string/start_move" />
+        <TextView
+            android:id="@+id/tv_wheel_relative_end"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:text="@string/end_move" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_marginTop="100px"
+        android:background="#cccccc"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/distance_move" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/speed" />
+
+        <EditText
+            android:id="@+id/et_wheel_distance_speed"
+            android:layout_width="250px"
+            android:layout_height="match_parent"
+            android:hint="@string/wheel_speed_range"
+            android:inputType="number"
+            android:textColorHint="#BBBBBB" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/distance" />
+
+        <EditText
+            android:id="@+id/et_wheel_distance"
+            android:layout_width="250px"
+            android:layout_height="match_parent"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/tv_wheel_distance_start"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:text="@string/start_move" />
+        <TextView
+            android:id="@+id/tv_wheel_distance_end"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:text="@string/end_move" />
+    </LinearLayout>
+
+</LinearLayout>

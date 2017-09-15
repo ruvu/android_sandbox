@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_marginTop="100px"
+        android:background="#cccccc"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/speech_synthesize_text" />
+
+        <EditText
+            android:id="@+id/et_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="40px"
+            android:paddingRight="40px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="#cccccc"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/speech_synthesize_lang" />
+
+        <RadioGroup
+            android:id="@+id/rg_lang"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="40px"
+            android:paddingRight="40px">
+
+            <RadioButton
+                android:id="@+id/rb_english"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/english" />
+
+            <RadioButton
+                android:id="@+id/rb_chinese"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chinese" />
+
+            <RadioButton
+                android:id="@+id/rb_dutch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dutch" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/speech_synthesize_speed" />
+
+        <EditText
+            android:id="@+id/et_speed"
+            android:layout_width="200px"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:hint="@string/speech_synthesize_range"
+            android:inputType="numberSigned"
+            android:textColorHint="#BBBBBB" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/speech_synthesize_tone" />
+
+        <EditText
+            android:id="@+id/et_tone"
+            android:layout_width="200px"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:hint="@string/speech_synthesize_range"
+            android:inputType="numberSigned"
+            android:textColorHint="#BBBBBB" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#cccccc"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_speech_synthesize_start"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:padding="20px"
+            android:text="@string/speech_synthesize_start" />
+
+        <TextView
+            android:id="@+id/tv_speech_synthesize_pause"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:padding="20px"
+            android:text="@string/speech_synthesize_pause" />
+
+        <TextView
+            android:id="@+id/tv_speech_synthesize_continue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:padding="20px"
+            android:text="@string/speech_synthesize_continue" />
+
+        <TextView
+            android:id="@+id/tv_speech_synthesize_stop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:padding="20px"
+            android:text="@string/speech_synthesize_stop" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="#cccccc"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/speech_synthesize_finish" />
+
+        <TextView
+            android:id="@+id/tv_speech_synthesize_finish"
+            android:layout_width="200px"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="40px"
+            android:paddingRight="40px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/speech_synthesize_progress" />
+
+        <TextView
+            android:id="@+id/tv_speech_synthesize_progress"
+            android:layout_width="200px"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="40px"
+            android:paddingRight="40px" />
+
+
+        <TextView
+            android:id="@+id/tv_speech_speaking"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:paddingLeft="20px"
+            android:paddingRight="20px"
+            android:text="@string/whether_speaking" />
+
+        <TextView
+            android:id="@+id/tv_speech_speaking_result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="40px"
+            android:paddingRight="40px" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        android:background="#cccccc"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_speech_sleep"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:padding="20px"
+            android:text="@string/speech_sleep" />
+
+        <TextView
+            android:id="@+id/tv_speech_wakeup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:padding="20px"
+            android:text="@string/speech_wakeup" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="#cccccc"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/status" />
+
+        <TextView
+            android:id="@+id/tv_speech_status"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="40px"
+            android:paddingRight="40px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_marginTop="100px"
+        android:background="#cccccc"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cb_intercept_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/intercept_message" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="@string/speech_recognize_volume" />
+
+        <TextView
+            android:id="@+id/tv_speech_recognize_volume"
+            android:layout_width="200px"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="40px"
+            android:paddingRight="40px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/speech_recognize_result" />
+
+        <TextView
+            android:id="@+id/tv_speech_recognize_result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="40px"
+            android:paddingRight="40px" />
+    </LinearLayout>
+
+</LinearLayout>

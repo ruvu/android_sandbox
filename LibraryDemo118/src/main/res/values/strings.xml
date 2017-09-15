@@ -1,0 +1,290 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="app_name">QihanOpenSDK Demo</string>
+    <string name="consume_message">Whether consume message</string>
+    <string name="speech_synthesis">Speech synthesis</string>
+    <string name="pause_synthesis">Pause synthesis</string>
+    <string name="continue_synthesis">Continue synthesis</string>
+    <string name="sleep">Sleep</string>
+    <string name="wake_up">Wake up</string>
+    <string name="open_light">Turn on the LED light</string>
+    <string name="close_light">Turn off the LED light</string>
+    <string name="set_light_strongest">Set the LED light to the brightest lights</string>
+    <string name="set_light_dimest">Set the LED light to the darkest lights</string>
+    <string name="control_led">Control the LED light</string>
+    <string name="head_motion_example">Head movement example sample</string>
+    <string name="hand_motion_example">Hands movement example sample</string>
+    <string name="wheel_motion_example">Wheels movement example sample</string>
+    <string name="service_communication">The communication sample with robot in the Service </string>
+    <string name="video_stream_example">Get the video flowing sample</string>
+    <string name="face_recognization">Face recognition test</string>
+    <string name="get_speak_status">Get the current speak state</string>
+    <string name="current_speak_volume">The current user speak volume is：</string>
+    <string name="in_wake_up_status">The robot turn into wake up state</string>
+    <string name="in_sleep_status">The robot turn into sleep state</string>
+    <string name="robot_id">The robot ID is</string>
+    <string name="current_speak_progress">The current speech synthesis progress is:</string>
+    <string name="stop_wander">Stop wandering</string>
+    <string name="start_wander">Start wandering</string>
+    <string name="synthesis_finish">Speech synthesis is ended</string>
+    <string name="trigger_front_pir">The PIR sensor in front of the robot is triggered</string>
+    <string name="trigger_back_pir">The PIR sensor on the robot back is triggered</string>
+    <string name="voice_locate_angle">The current angle of sound localization is </string>
+    <string name="mainservice_version">The version of current master control is:</string>
+    <string name="touch_jaw_right">You have touched the robot sensor which on the right side chin </string>
+    <string name="touch_jaw_left">You have touched the robot sensor which on the left side chin</string>
+    <string name="touch_chest_left">You have touched the robot sensor which on the left side chest</string>
+    <string name="touch_chest_right">You have touched the robot sensor which on the right side chest</string>
+    <string name="touch_back_head_left">You have touched the sensor which on the left back side of the robot head</string>
+    <string name="touch_back_head_right">You have touched the sensor which on the right back side of the robot head</string>
+    <string name="touch_back_left">You have touched the sensor which on the left side of the robot back</string>
+    <string name="touch_back_right">You have touched the sensor which on the right side of the robot back</string>
+    <string name="touch_hand_left">You have touched the left hand sensor</string>
+    <string name="touch_hand_right">You have touched the right hand sensor</string>
+    <string name="touch_head_left">You have touched the left front side sensor on top of the robot head</string>
+    <string name="touch_head_middle">You have touched the sensor on the top of the robot head</string>
+    <string name="touch_head_right">You have touched the right front side sensor on top of the robot head</string>
+    <string name="infrare_distance">The result of the robot infrared distance measurement is %1$d centimeter.</string>
+    <string name="robot_is_speaking">Robot is talking</string>
+    <string name="robot_isnot_speaking">Robot is not speaking</string>
+
+    <!--菜单控制相关-->
+    <string name="title">title</string>
+    <string name="status">status</string>
+    <string name="main">main</string>
+    <string name="speech_control">Speech control</string>
+    <string name="hardware_control">Hardware control</string>
+    <string name="head_control">Head control</string>
+    <string name="hand_control">Hand control</string>
+    <string name="wheel_control">Wheel control</string>
+    <string name="system_control">System control</string>
+    <string name="media_control">Media control</string>
+    <string name="projector_control">Projector control</string>
+    <string name="modularity_control">Modularity control</string>
+    <string name="preprocessor_control">1.7 Demo</string>
+
+    <string name="forward">forward</string>
+    <string name="right">right</string>
+    <string name="left">left</string>
+
+    <!--语音控制合成相关-->
+    <string name="speech_synthesize_start">Start synthesize</string>
+    <string name="speech_synthesize_pause">Pause synthesize</string>
+    <string name="speech_synthesize_continue">Continue synthesize</string>
+    <string name="speech_synthesize_stop">Stop synthesize</string>
+    <string name="speech_synthesize_text">Synthesize text :</string>
+    <string name="speech_synthesize_lang">Synthesize language :</string>
+    <string name="speech_synthesize_speed">Synthesize speed :</string>
+    <string name="speech_synthesize_tone">Synthesize tone :</string>
+    <string name="speech_synthesize_finish">Synthesize finish :</string>
+    <string name="speech_synthesize_progress">Synthesize progress :</string>
+    <string name="whether_speaking">speaking ?</string>
+    <string name="speaking">Robot is speaking</string>
+    <string name="not_speaking">Robot is not speaking</string>
+    <string name="english">English</string>
+    <string name="chinese">Chinese</string>
+    <string name="dutch">Dutch</string>
+
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <!--语音控制休眠、唤醒相关-->
+    <string name="speech_sleep">Sleep</string>
+    <string name="speech_wakeup">Wakeup</string>
+    <string name="speech_wakeup_status">The robot turn into wakeup state</string>
+    <string name="speech_sleep_status">The robot turn into sleep state</string>
+    <!--语音控制识别相关-->
+    <string name="intercept_message">Intercept message</string>
+    <string name="speech_recognize_result">Recognize result :</string>
+    <string name="speech_recognize_volume">Recognize volume :</string>
+
+    <!--硬件控制相关-->
+    <string name="white_light_level">White light level</string>
+    <string name="open_white_light">Open white light</string>
+    <string name="close_white_light">Close white light</string>
+    <string name="open_led_light">Open LED light</string>
+    <string name="close_led_light">Close LED light</string>
+    <string name="touch_sensor">Touch sensor :</string>
+    <string name="voice_location">Voice location :</string>
+    <string name="pir_sensor">PIR sensor :</string>
+    <string name="ri_sensor">RI sensor</string>
+    <string name="open_black_line_filter">Open black line filter</string>
+    <string name="close_black_line_filter">Close black line filter</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="gyroscope">gyroscope:</string>
+    <string name="gyroscope_result">Yaw angle: %1$.2f°, Pitch angle: %2$.2f°, Roll angle: %3$.2f°</string>
+    <string name="mode">mode</string>
+    <string-array name="led_part">
+        <item>all</item>
+        <item>wheel</item>
+        <item>left hand</item>
+        <item>right hand</item>
+        <item>left head</item>
+        <item>right head</item>
+    </string-array>
+    <string-array name="led_mode">
+        <item>white</item>
+        <item>red</item>
+        <item>green</item>
+        <item>pink</item>
+        <item>purple</item>
+        <item>blue</item>
+        <item>yellow</item>
+        <item>flicker white</item>
+        <item>flicker red</item>
+        <item>flicker green</item>
+        <item>flicker pink</item>
+        <item>flicker purple</item>
+        <item>flicker blue</item>
+        <item>flicker yellow</item>
+        <item>flicker random</item>
+    </string-array>
+    <string name="random_count">random count</string>
+    <string name="led_duration_range">1~255</string>
+    <string name="led_random_range">1~7</string>
+
+    <!--系统管理-->
+    <string name="battery_level">Battery level</string>
+    <string name="battery_state">Battery state</string>
+    <string name="charging_by_wire">Charging by wire</string>
+    <string name="no_charging">No charging</string>
+    <string name="charging_by_pile">Charging by pile</string>
+    <string name="back_screen_saver">Back to screen saver</string>
+    <string name="emotion_control">Emotion control</string>
+    <string name="safe_home_state">Safe home state :</string>
+    <string name="shadow_alarm">Shadow alarm</string>
+    <string name="invasion_alarm">Invasion alarm</string>
+    <string name="boundary_violation_alarm">Boundary violation alarm</string>
+    <string name="show_floating_window">Show floating window</string>
+    <string name="hide_floating_window">Hide floating window</string>
+
+    <string name="relative_move">Relative move</string>
+    <string name="direction">Direction</string>
+    <string name="angle">Angle</string>
+    <string name="start_move">Start</string>
+    <string name="end_move">End</string>
+    <string-array name="relative_action">
+        <item>up</item>
+        <item>down</item>
+        <item>left</item>
+        <item>right</item>
+        <item>left_up</item>
+        <item>right_up</item>
+        <item>left_down</item>
+        <item>right_down</item>
+    </string-array>
+    <string name="absolute_move">Absolute move</string>
+    <string-array name="absolute_action">
+        <item>horizontal</item>
+        <item>vertical</item>
+    </string-array>
+    <string name="head_lock_horizontal">Horizontal center lock</string>
+    <string name="absolute_angle_lock">Absolute angle lock</string>
+    <string name="horizontal_angle">horizontal angle</string>
+    <string name="vertical_angle">vertical angle</string>
+    <string-array name="absolute_lock_action">
+        <item>no lock</item>
+        <item>horizontal lock</item>
+        <item>vertical lock</item>
+        <item>horizontal vertical lock</item>
+    </string-array>
+    <string name="relative_angle_lock">relative angle lock</string>
+    <string name="horizontal_direction">horizontal direction</string>
+    <string-array name="relative_horizontal">
+        <item>left</item>
+        <item>right</item>
+    </string-array>
+    <string name="vertical_direction">vertical direction</string>
+    <string-array name="relative_vertical">
+        <item>up</item>
+        <item>down</item>
+    </string-array>
+
+    <!--手部运动-->
+    <string name="no_angle_move">No angle move</string>
+    <string-array name="hand_action">
+        <item>up</item>
+        <item>down</item>
+        <item>reset</item>
+    </string-array>
+    <string name="part">part</string>
+    <string-array name="hand_part">
+        <item>left</item>
+        <item>right</item>
+        <item>both</item>
+    </string-array>
+    <string name="speed">speed</string>
+    <string name="hand_speed_range">1~8</string>
+
+    <string name="relative_angle_move">Relative angle move</string>
+    <string-array name="hand_relative_action">
+        <item>up</item>
+        <item>down</item>
+    </string-array>
+    <string name="hand_angle_range">0~270</string>
+
+    <string name="absolute_angle_move">Absolute angle move</string>
+
+    <!--轮子运动-->
+    <string name="duration">duration</string>
+    <string name="wheel_speed_range">1~10</string>
+    <string-array name="wheel_no_angle_action">
+        <item>forward</item>
+        <item>left circle</item>
+        <item>right circle</item>
+        <item>turn left</item>
+        <item>turn right</item>
+    </string-array>
+    <string name="stop_turn">stop turn</string>
+    <string name="stop_run">stop run</string>
+    <string-array name="wheel_relative_action">
+        <item>turn left</item>
+        <item>turn right</item>
+    </string-array>
+    <string name="distance_move">distance move</string>
+    <string name="distance">distance</string>
+
+    <string name="capture">capture</string>
+    <string name="face_info">face information</string>
+
+    <string name="open_projector">Open projector</string>
+    <string name="close_projector">Close projector</string>
+    <string name="mirror">mirror</string>
+    <string-array name="mirror_mode">
+        <item>no reversal</item>
+        <item>lr reversal</item>
+        <item>ud reversal</item>
+        <item>all reversal</item>
+    </string-array>
+    <string name="trapezoid_horizontal">trapezoid horizontal adjust</string>
+    <string name="trapezoid_horizontal_range">-30~30</string>
+    <string name="trapezoid_vertical">trapezoid vertical adjust</string>
+    <string name="trapezoid_vertical_range">-20~30</string>
+    <string name="contrast">contrast</string>
+    <string name="contrast_range">-15~15</string>
+    <string name="bright">bright</string>
+    <string name="bright_range">-31~31</string>
+    <string name="color">color</string>
+    <string name="saturation">saturation</string>
+    <string name="acuity">acuity</string>
+    <string name="acuity_range">0~6</string>
+    <string name="expert_axis">expert axis adjust</string>
+    <string name="expert_axis_range">1~5</string>
+    <string name="expert_phase">expert phase adjust</string>
+    <string-array name="projector_mode">
+        <item>wall</item>
+        <item>ceiling</item>
+    </string-array>
+    <string name="expert_error_callback">expert error callback</string>
+
+    <string name="open_wander">Open wander</string>
+    <string name="close_wander">Close wander</string>
+    <string name="open_auto_charging">Open auto charging</string>
+    <string name="close_auto_charging">Close auto charging</string>
+    <string name="wander_state">wander state</string>
+    <string name="auto_charging_state">auto charging state</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+</resources>

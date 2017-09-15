@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--根据统一头部样式，自己定制即可-->
+    <RelativeLayout
+        android:background="#aaaaaa"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/top_title_margin_bottom"
+            android:text="@string/title"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/home_top_title_size" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_speech_control"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="50px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:padding="50px"
+            android:text="@string/speech_control" />
+
+        <TextView
+            android:id="@+id/tv_hardware_control"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="50px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:padding="50px"
+            android:text="@string/hardware_control" />
+
+        <TextView
+            android:id="@+id/tv_system_control"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="50px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:padding="50px"
+            android:text="@string/system_control" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_head_control"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="50px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:padding="50px"
+            android:text="@string/head_control" />
+
+        <TextView
+            android:id="@+id/tv_hand_control"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="50px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:padding="50px"
+            android:text="@string/hand_control" />
+
+        <TextView
+            android:id="@+id/tv_wheel_control"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="50px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:padding="50px"
+            android:text="@string/wheel_control" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_projector_control"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="50px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:padding="50px"
+            android:text="@string/projector_control" />
+
+        <TextView
+            android:id="@+id/tv_media_control"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="50px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:padding="50px"
+            android:text="@string/media_control" />
+
+        <TextView
+            android:id="@+id/tv_modularity_control"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="50px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:padding="50px"
+            android:text="@string/modularity_control" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_main"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="50px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:padding="50px"
+            android:text="@string/main" />
+    </LinearLayout>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_preprocessor_control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:background="#aaaaaa"
+        android:gravity="center"
+        android:padding="50px"
+        android:text="@string/preprocessor_control" />
+</LinearLayout>

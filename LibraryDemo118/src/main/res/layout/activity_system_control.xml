@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="#cccccc"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_marginTop="100px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginLeft="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/robot_id" />
+
+        <TextView
+            android:id="@+id/tv_robot_id"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="40px"
+            android:paddingRight="40px" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#cccccc"
+        android:layout_marginTop="100px"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_battery_level"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="20px"
+            android:paddingRight="20px"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:text="@string/battery_level" />
+
+        <TextView
+            android:id="@+id/tv_battery_level_result"
+            android:layout_width="200px"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="40px"
+            android:paddingRight="40px" />
+
+        <TextView
+            android:id="@+id/tv_battery_state"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="20px"
+            android:paddingRight="20px"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:text="@string/battery_state" />
+
+        <TextView
+            android:id="@+id/tv_battery_state_result"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="40px"
+            android:paddingRight="40px" />
+
+        <TextView
+            android:id="@+id/tv_main_server_version"
+            android:paddingLeft="20px"
+            android:paddingRight="20px"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/mainservice_version" />
+
+        <TextView
+            android:id="@+id/tv_main_server_version_result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="40px"
+            android:paddingRight="40px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#cccccc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_emotion_control"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:padding="20px"
+            android:text="@string/emotion_control" />
+
+        <TextView
+            android:id="@+id/tv_back_screen_saver"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:padding="20px"
+            android:text="@string/back_screen_saver" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#cccccc"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_marginTop="100px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/safe_home_state" />
+
+        <TextView
+            android:id="@+id/tv_safe_home_state"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="40px"
+            android:paddingRight="40px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#cccccc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_show_floating"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:padding="20px"
+            android:text="@string/show_floating_window" />
+
+        <TextView
+            android:id="@+id/tv_hide_floating"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:padding="20px"
+            android:text="@string/hide_floating_window" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_open_wander"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:padding="20px"
+            android:text="@string/open_wander" />
+
+        <TextView
+            android:id="@+id/tv_close_wander"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:padding="20px"
+            android:text="@string/close_wander" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_open_auto_charging"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:padding="20px"
+            android:text="@string/open_auto_charging" />
+
+        <TextView
+            android:id="@+id/tv_close_auto_charging"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:padding="20px"
+            android:text="@string/close_auto_charging" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_wander_state"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:padding="20px"
+            android:text="@string/wander_state" />
+
+        <TextView
+            android:id="@+id/tv_auto_wander_result"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="20px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_auto_charging_state"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:gravity="center"
+            android:padding="20px"
+            android:text="@string/auto_charging_state" />
+
+        <TextView
+            android:id="@+id/tv_auto_charging_state_result"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="20px" />
+    </LinearLayout>
+</LinearLayout>

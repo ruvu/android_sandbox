@@ -1,0 +1,284 @@
+<resources>
+    <string name="app_name">QihanOpenSDK Demo</string>
+    <string name="consume_message">是否消耗消息</string>
+    <string name="speech_synthesis">语音合成</string>
+    <string name="pause_synthesis">暂停合成</string>
+    <string name="continue_synthesis">继续合成</string>
+    <string name="sleep">休眠</string>
+    <string name="wake_up">唤醒</string>
+    <string name="open_light">打开白光灯</string>
+    <string name="close_light">关闭白光灯</string>
+    <string name="set_light_strongest">将白光灯亮度设为最亮</string>
+    <string name="set_light_dimest">将白光灯亮度设为最暗</string>
+    <string name="control_led">控制LED灯</string>
+    <string name="head_motion_example">头部运动示例</string>
+    <string name="hand_motion_example">手部运动示例</string>
+    <string name="wheel_motion_example">轮子运动示例</string>
+    <string name="service_communication">在Service中与机器人通讯示例</string>
+    <string name="video_stream_example">获取视频流示例</string>
+    <string name="face_recognization">人脸识别测试</string>
+    <string name="get_speak_status">获取当前说话状态</string>
+    <string name="current_speak_volume">当前用户说话音量为：</string>
+    <string name="in_wake_up_status">机器人进入唤醒状态</string>
+    <string name="in_sleep_status">机器人进入休眠状态</string>
+    <string name="robot_id">机器人的设备ID为</string>
+    <string name="current_speak_progress">当前语音合成进度为:</string>
+    <string name="stop_wander">停止游荡</string>
+    <string name="start_wander">开始游荡</string>
+    <string name="synthesis_finish">语音合成结束</string>
+    <string name="trigger_front_pir">机器人前面PIR感应器被触发</string>
+    <string name="trigger_back_pir">机器人背后PIR感应器被触发</string>
+    <string name="voice_locate_angle">当前声源定位的角度为</string>
+    <string name="mainservice_version">当前主控版本号为:</string>
+    <string name="touch_jaw_right">你触摸了机器人下巴右侧传感器</string>
+    <string name="touch_jaw_left">你触摸了机器人下巴左侧传感器</string>
+    <string name="touch_chest_left">你触摸了机器人胸前左侧传感器</string>
+    <string name="touch_chest_right">你触摸了机器人胸前右侧传感器</string>
+    <string name="touch_back_head_left">你触摸了机器人后脑勺左侧传感器</string>
+    <string name="touch_back_head_right">你触摸了机器人后脑勺右侧传感器</string>
+    <string name="touch_back_left">你触摸了机器人背部左侧传感器</string>
+    <string name="touch_back_right">你触摸了机器人背部右侧传感器</string>
+    <string name="touch_hand_left">你触摸了左手传感器</string>
+    <string name="touch_hand_right">你触摸了右手传感器</string>
+    <string name="touch_head_left">你触摸了头顶左前处传感器</string>
+    <string name="touch_head_middle">你触摸了头顶中间处传感器</string>
+    <string name="touch_head_right">你触摸了头顶右前处传感器</string>
+    <string name="infrare_distance">机器人胸部红外测距结果为%1$d厘米</string>
+    <string name="robot_is_speaking">机器人正在说话</string>
+    <string name="robot_isnot_speaking">机器人没有说话</string>
+
+    <string name="title">标题</string>
+    <string name="status">状态</string>
+    <string name="speech_control">语音控制</string>
+    <string name="hardware_control">硬件控制</string>
+    <string name="head_control">头部运动控制</string>
+    <string name="hand_control">手部运动控制</string>
+    <string name="wheel_control">轮子运动控制</string>
+    <string name="system_control">系统管理</string>
+    <string name="media_control">多媒体管理</string>
+    <string name="projector_control">投影仪管理</string>
+    <string name="modularity_control">模块化运动控制</string>
+    <string name="preprocessor_control">1.7 Demo</string>
+
+    <!--语音控制合成相关-->
+    <string name="speech_synthesize_start">语音合成</string>
+    <string name="speech_synthesize_pause">暂停合成</string>
+    <string name="speech_synthesize_continue">继续合成</string>
+    <string name="speech_synthesize_stop">停止合成</string>
+    <string name="speech_synthesize_text">合成文本：</string>
+    <string name="speech_synthesize_lang">合成语言：</string>
+    <string name="speech_synthesize_speed">合成语速：</string>
+    <string name="speech_synthesize_tone">合成声调：</string>
+    <string name="speech_synthesize_finish">合成结束：</string>
+    <string name="speech_synthesize_progress">合成进度：</string>
+    <string name="whether_speaking">正在说话 ?</string>
+    <string name="speaking">机器人正在说话</string>
+    <string name="not_speaking">机器人不在说话</string>
+    <string name="english">英文</string>
+    <string name="chinese">中文</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="speech_synthesize_range">0~100</string>
+    <!--语音控制休眠、唤醒相关-->
+    <string name="speech_sleep">休眠</string>
+    <string name="speech_wakeup">唤醒</string>
+    <string name="speech_wakeup_status">机器人进入唤醒状态</string>
+    <string name="speech_sleep_status">机器人进入休眠状态</string>
+    <!--语音控制识别相关-->
+    <string name="intercept_message">拦截消息</string>
+    <string name="speech_recognize_result">语音识别结果：</string>
+    <string name="speech_recognize_volume">语音识别音量：</string>
+
+    <!--硬件控制相关-->
+    <string name="white_light_level">白光灯亮度</string>
+    <string name="open_white_light">打开白光灯</string>
+    <string name="close_white_light">关闭白光灯</string>
+    <string name="open_led_light">打开LED灯</string>
+    <string name="close_led_light">关闭LED灯</string>
+    <string name="touch_sensor">触摸事件：</string>
+    <string name="voice_location">声源定位：</string>
+    <string name="pir_sensor">PIR红外传感器：</string>
+    <string name="ri_sensor">红外测距传感器</string>
+    <string name="open_black_line_filter">开启黑线过滤</string>
+    <string name="close_black_line_filter">关闭黑线过滤</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="gyroscope">陀螺仪：</string>
+    <string name="gyroscope_result">偏航角：%1$.2f°，俯仰角：%2$.2f°，横滚角：%3$.2f°</string>
+    <string name="mode">模式</string>
+    <string-array name="led_part">
+        <item>所有的LED灯</item>
+        <item>底盘的LED灯</item>
+        <item>左翅的LED灯</item>
+        <item>右翅的LED灯</item>
+        <item>头部左侧LED灯</item>
+        <item>头部右侧LED灯</item>
+    </string-array>
+    <string-array name="led_mode">
+        <item>白色</item>
+        <item>红色</item>
+        <item>绿色</item>
+        <item>粉红色</item>
+        <item>紫色</item>
+        <item>蓝色</item>
+        <item>黄色</item>
+        <item>闪烁的白色</item>
+        <item>闪烁的红色</item>
+        <item>闪烁的绿色</item>
+        <item>闪烁的粉红色</item>
+        <item>闪烁的紫色</item>
+        <item>闪烁的蓝色</item>
+        <item>闪烁的黄色</item>
+        <item>随机色闪烁</item>
+    </string-array>
+    <string name="random_count">随机数量</string>
+    <string name="led_duration_range">1~255</string>
+    <string name="led_random_range">1~7</string>
+
+    <!--系统管理-->
+    <string name="battery_level">电池电量</string>
+    <string name="battery_state">电池状态</string>
+    <string name="charging_by_wire">电源线充电</string>
+    <string name="no_charging">未充电</string>
+    <string name="charging_by_pile">充电桩充电</string>
+    <string name="back_screen_saver">返回屏保界面</string>
+    <string name="emotion_control">表情控制</string>
+    <string name="safe_home_state">安全家状态：</string>
+    <string name="shadow_alarm">遮挡报警</string>
+    <string name="invasion_alarm">入侵报警</string>
+    <string name="boundary_violation_alarm">越界报警</string>
+    <string name="show_floating_window">显示系统悬浮按钮</string>
+    <string name="hide_floating_window">隐藏系统悬浮按钮</string>
+
+    <!--头部控制-->
+    <string name="relative_move">相对运动</string>
+    <string name="direction">方向</string>
+    <string name="angle">角度</string>
+    <string name="start_move">开始运动</string>
+    <string name="end_move">停止运动</string>
+    <string-array name="relative_action">
+        <item>上</item>
+        <item>下</item>
+        <item>左</item>
+        <item>右</item>
+        <item>左上</item>
+        <item>右上</item>
+        <item>左下</item>
+        <item>右下</item>
+    </string-array>
+    <string name="absolute_move">绝对运动</string>
+    <string-array name="absolute_action">
+        <item>水平</item>
+        <item>垂直</item>
+    </string-array>
+    <string name="head_lock_horizontal">水平居中锁定</string>
+    <string name="absolute_angle_lock">绝对角度定位</string>
+    <string name="horizontal_angle">水平方向角度</string>
+    <string name="vertical_angle">垂直方向角度</string>
+    <string-array name="absolute_lock_action">
+        <item>不上锁</item>
+        <item>水平方向上锁</item>
+        <item>垂直方向上锁</item>
+        <item>水平垂直方向都上锁</item>
+    </string-array>
+    <string name="relative_angle_lock">相对角度定位</string>
+    <string name="horizontal_direction">水平方向</string>
+    <string-array name="relative_horizontal">
+        <item>水平向左</item>
+        <item>水平向右</item>
+    </string-array>
+    <string name="vertical_direction">垂直方向</string>
+    <string-array name="relative_vertical">
+        <item>垂直向上</item>
+        <item>垂直向下</item>
+    </string-array>
+
+    <!--手部运动-->
+    <string name="no_angle_move">无角度运动</string>
+    <string-array name="hand_action">
+        <item>向上运动</item>
+        <item>向下运动</item>
+        <item>复位</item>
+    </string-array>
+    <string name="part">部位</string>
+    <string-array name="hand_part">
+        <item>左翅</item>
+        <item>右翅</item>
+        <item>左右两翅</item>
+    </string-array>
+    <string name="speed">速度</string>
+    <string name="hand_speed_range">1~8</string>
+
+    <string name="relative_angle_move">相对角度运动</string>
+    <string-array name="hand_relative_action">
+        <item>向上转动</item>
+        <item>向下转动</item>
+    </string-array>
+    <string name="hand_angle_range">0~270</string>
+
+    <string name="absolute_angle_move">绝对角度运动</string>
+
+    <!--轮子运动-->
+    <string name="duration">时间</string>
+    <string name="wheel_speed_range">1~10</string>
+    <string-array name="wheel_no_angle_action">
+        <item>前进</item>
+        <item>向左原地转圈</item>
+        <item>向右原地转圈</item>
+        <item>左转弯</item>
+        <item>右转弯</item>
+    </string-array>
+    <string name="stop_turn">停止转弯</string>
+    <string name="stop_run">停止运动</string>
+    <string-array name="wheel_relative_action">
+        <item>向左转</item>
+        <item>向右转</item>
+    </string-array>
+    <string name="distance_move">距离运动</string>
+    <string name="distance">距离</string>
+
+    <string name="capture">抓图</string>
+    <string name="face_info">人脸信息</string>
+
+    <string name="open_projector">打开投影仪</string>
+    <string name="close_projector">关闭投影仪</string>
+    <string name="mirror">镜像</string>
+    <string-array name="mirror_mode">
+        <item>无翻转</item>
+        <item>左右翻转</item>
+        <item>上下翻转</item>
+        <item>上下左右都翻转</item>
+    </string-array>
+    <string name="trapezoid_horizontal">梯形水平校正值</string>
+    <string name="trapezoid_horizontal_range">-30~30</string>
+    <string name="trapezoid_vertical">梯形垂直校正值</string>
+    <string name="trapezoid_vertical_range">-20~30</string>
+    <string name="contrast">对比度</string>
+    <string name="contrast_range">-15~15</string>
+    <string name="bright">亮度</string>
+    <string name="bright_range">-31~31</string>
+    <string name="color">色值</string>
+    <string name="saturation">饱和度</string>
+    <string name="acuity">画面锐度</string>
+    <string name="acuity_range">0~6</string>
+    <string name="expert_axis">专家模式光轴调整</string>
+    <string name="expert_axis_range">1~5</string>
+    <string name="expert_phase">专家模式相位调整</string>
+    <string-array name="projector_mode">
+        <item>墙壁投影模式</item>
+        <item>天花板投影模式</item>
+    </string-array>
+    <string name="expert_error_callback">专家模式出错回调</string>
+
+    <string name="open_wander">打开自由行走</string>
+    <string name="close_wander">关闭自由行走</string>
+    <string name="open_auto_charging">打开自动充电</string>
+    <string name="close_auto_charging">关闭自动充电</string>
+    <string name="wander_state">自由行走状态</string>
+    <string name="auto_charging_state">自动充电状态</string>
+    <string name="open">开启</string>
+    <string name="close">关闭</string>
+
+
+</resources>
