@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Reverse Engineer Sanbot IO</string>
+    <string name="close_light">Light on</string>
+    <string name="open_light">Light off</string>
+</resources>
